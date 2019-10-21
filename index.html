@@ -3,10 +3,83 @@
   <head>
     <title>Mid Q4</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+
+
+  	<div class="container">
+  		
+  		<section class="header">
+  			<h1>Pressure Cooker</h1>
+  		</section>
+
+  		<section class="myform">
+
+  			<div class="row">
+  				
+  				<div class="col-6">
+  					
+  					<form>
+						  <div class="form-group row">
+						    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Start Temperature (Celcius) </label>
+						    <div class="col-sm-10">
+						      <input type="number" class="form-control form-control-sm" id="start" placeholder="">
+						    </div>
+						  </div>
+
+						  <div class="form-group row">
+						    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">End Temperature (Celcius) </label>
+						    <div class="col-sm-10">
+						      <input type="number" class="form-control form-control-sm" id="end" placeholder="">
+						    </div>
+						  </div>
+
+						  <div class="form-group row">
+						    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Interval (Milliseconds) </label>
+						    <div class="col-sm-10">
+						      <input type="number" class="form-control form-control-sm" id="timer" placeholder="">
+						    </div>
+						  </div>
+						  
+						  
+						</form>
+
+						<button type="button" onclick="myFunction()" class="btn btn-primary">Cooking</button>
+
+  				</div>
+
+
+  				<div class="col-6">
+  					<h2>Progress!!</h2>
+  					
+  					<div class="progress">
+					  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+
+  				</div>
+
+  			</div>
+  			
+  		</section>
+
+  		
+
+
+
+
+
+  	</div>
+
+
+
+
       <!-- Your site content here -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       <script src="jquery-3.3.1.min.js"></script>
       <script src="script.js"></script>
   </body>
 </html>
+
+
